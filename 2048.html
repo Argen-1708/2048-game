@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2048</title>
+    <link rel="stylesheet" href="./2048.css" />
+    <script src="./2048.js"></script>
+  </head>
+
+  <body>
+    <!-- <form>
+      <label for="username"> Name:</label>
+      <input type="text" id="username" name="username" />
+      <button onclick="startGame()">Начать игру</button>
+    </form> -->
+    <label for="player-name">Введите ваше имя:</label>
+    <input type="text" id="player-name" />
+
+    <button onclick="startGame()">Начать игру</button>
+
+    <p id="score"></p>
+    <h1>Goal to Score 2048</h1>
+    <hr />
+    <h2>Score: <span id="score">0</span></h2>
+    <div id="board"></div>
+  </body>
+</html>
